@@ -28,6 +28,14 @@ void setup() {
     //laser qabul qiluvchi
     pinMode(laser_input_1, INPUT);
     pinMode(laser_input_2, INPUT);
+    pinMode(laser_input_3, INPUT);
+    pinMode(laser_input_4, INPUT);
+
+    //laser chiquvchi
+    pinMode(laser_output_1, OUTPUT);
+    pinMode(laser_output_2, OUTPUT);
+    pinMode(laser_output_3, OUTPUT);
+    pinMode(laser_output_4, OUTPUT);
 }
 
 void loop() {
